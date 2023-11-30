@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notbook App</title>
+
+    <!-- icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="CSS/app.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <a href="#">Notebook App</a>
+    </header>
+
+
+    <div class="wrapper d-flex justify-space-around ">
+
+        <!-- todo list -->
+        <div class="todo-list">
+
+            <!-- todo header -->
+            <div class="todo-list-header">
+                <a>Todo List</a>
+            </div>
+
+            <div class="todo-list-main">
+
+                <!-- list of input form -->
+                <form id="todo-list-form" class="d-flex">
+                    <input type="text" id="todo-list-input">
+                    <button id="todo-list-creat-btn">Creat</button>
+                </form>
+
+                <!-- todo jobs -->
+                <ul id="todo-jobs">
+                    <li>
+                        <p> first job</p>
+                        <hr class="hr-line">
+                        <div id="icon-wrapper">
+                            <i class='bx bx-check-square' style='color:#0bef18' id="todo-jobs-done-icon"></i>
+                            <i class='bx bx-edit' style='color:#0b94ef' id="todo-jobs-edit-icon"></i>
+                            <i class='bx bxs-trash' style='color:#ef0b3c' id="todo-jobs-delete-icon"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <p> first job</p>
+                        <hr class="hr-line">
+                        <div id="icon-wrapper">
+                            <i class='bx bx-check-square' style='color:#0bef18' id="todo-jobs-done-icon"></i>
+                            <i class='bx bx-edit' style='color:#0b94ef' id="todo-jobs-edit-icon"></i>
+                            <i class='bx bxs-trash' style='color:#ef0b3c' id="todo-jobs-delete-icon"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <p> first job</p>
+                        <hr class="hr-line">
+                        <div id="icon-wrapper">
+                            <i class='bx bx-check-square' style='color:#0bef18' id="todo-jobs-done-icon"></i>
+                            <i class='bx bx-edit' style='color:#0b94ef' id="todo-jobs-edit-icon"></i>
+                            <i class='bx bxs-trash' style='color:#ef0b3c' id="todo-jobs-delete-icon"></i>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div> <!-- end of todo -->
+
+
+
+        <div class="done-list">
+
+            <!-- done list header -->
+            <div class="done-list-header">
+                <a>Done List</a>
+            </div>
+
+            <div class="done-list-main">
+
+                <ul id="done-jobs">
+                    <li>
+                        <p> first done job</p>
+                        <hr class="hr-line">
+                        <div id="icon-wrapper">
+                            <i class='bx bxs-trash' style='color:#ef0b3c' id="done-jobs-delete-icon"></i>
+                            <i class='bx bx-undo' style='color:#f4a808' id="done-jobs-undo-icon"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <p> first done job</p>
+                        <hr class="hr-line">
+                        <div id="icon-wrapper">
+                            <i class='bx bxs-trash' style='color:#ef0b3c' id="done-jobs-delete-icon"></i>
+                            <i class='bx bx-undo' style='color:#f4a808' id="done-jobs-undo-icon"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <p> first done job</p>
+                        <hr class="hr-line">
+                        <div id="icon-wrapper">
+                            <i class='bx bxs-trash' style='color:#ef0b3c' id="done-jobs-delete-icon"></i>
+                            <i class='bx bx-undo' style='color:#f4a808' id="done-jobs-undo-icon"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
